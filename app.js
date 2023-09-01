@@ -12,7 +12,7 @@ function removeHtmlTagsAndEntities(input) {
 }
   
 const WooCommerce = new WooCommerceRestApi({
-    url: "https://floreriayeventoselys.com/",
+    url: "https://floreriayeventoselys.com",
     consumerKey: process.env.WOOCommerce_CONSUMER_KEY,
     consumerSecret: process.env.WOOCommerce_CONSUMER_SECRET,
     version: "wc/v3",
